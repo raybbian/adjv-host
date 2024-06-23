@@ -1,0 +1,15 @@
+[package]
+name = "adjv-host"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ashpd = "0.8.1"
+glib = "0.19.8"
+gstreamer = { version = "0.22.6", features = ["v1_20"]}
+gstreamer-net = "0.22.0"
+gstreamer-rtp = "0.22.6"
+gstreamer-video = "0.22.6"
+tokio = { version = "1.38.0", features = ["full"]}
